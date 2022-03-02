@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat: 500')
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#landingbg{
+	background-image: url(https://images.pexels.com/photos/159393/gamepad-video-game-controller-game-controller-controller-159393.jpeg?cs=srgb&dl=pexels-pixabay-159393.jpg&fm=jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+}
+
+
+li, a, button{
+	font-family: "Montserrat", sans-serif;
+}
+
+#navname{
+	color: #64FFDA;
+	font-family: font-mono;
+	font-size: 20px;
+	font-weight: 400;
+	margin-top: 12px;
+}
+
+
+.navbar > div > a {
+    display: inline-block;
+    vertical-align: top;    
+}
+
+
+
+#navitem{
+	color: #64FFDA;
+	font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+	font-size: 18px;
+	padding: 10px;
+	font-weight: 400;
+}
+
+#home{
+	max-width: 1500px;
+	min-height: 600px;
+	margin-top: 100px;
+	
+
+
+}
+
+.logo-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid aqua; 
+    cursor: pointer;
+    transition: transition;
+}
+
+
+#hh1{
+	color: #64FFDA;
+	font-family: font-mono;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+#hh2{
+	color: #CCD6F6;
+	font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+	font-size: 60PX;
+	font-weight: 600;
+	line-height: 1.1;
+}
+
+#hh3{
+	color: #8892B0;
+	font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+	font-size: 50px;
+	font-weight: 600;
+	line-height: 0.9;
+	padding-top: 15px;
+}
+
+#hh4{
+	color: #64FFDA;
+	font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+	font-size: 35PX;
+	font-weight: 400;	
+	padding-bottom: 22px;
+}
+
+#hh5{
+	color: #64FFDA;
+	font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+#hh6{
+	color: #CCD6F6;
+	font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+	font-size: 25PX;
+	font-weight: 600;
+	line-height: 1.1;
+}
+
+#hh7{
+	color: #64FFDA;
+	font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+	font-size: 25PX;
+	font-weight: 100;	
+}
+
+#hh8{
+	color: #CCD6F6;
+	font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+	font-size: 20PX;
+	font-weight: 400;
+	line-height: 2;
+}
+
+#hp1{
+	color: #8892B0;
+	font-family: san francisco;
+	font-weight: 400;
+	line-height: 0.9;
+	font-size: 20px;
+	padding-top: 20px;
+
+}
+
+
+.fab{
+	font-size: 2rem;
+	color: #64FFDA;
+	padding: 5px;
+}
+
+
+html, body {
+    overflow-x: hidden;
+}
+  
+/*
+ .ml-auto{
+     right: auto !important;
+      left: 0px;
+    }*/
+
+
+#img1{
+	width: 35vh;
+}
+
+#img2{
+	width: 38vh;
+	height: 25vh;
+	border: 12px solid;
+	border-radius: 8px;
+	border-width: 1px;
+	border-color: #64FFDA;
+	cursor: pointer;
+    transition: transition;
+}
+
+#img2:hover {
+  background-color: #008080;
+  color: white;
+  -moz-box-shadow: 0 0 10px #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+  box-shadow: 0 0 10px #ccc;
+}
+
+#modalimg1{
+	width: 100vh;
+	height: 40vh;
+	background-color: transparent;
+}
+	
+
+
+#elink{
+	color: #64FFDA;
+    background-color: transparent;
+    border: 1px solid aqua;
+    border-radius: border-radius;
+    padding: 1.25rem 1.75rem;
+    font-size: 15px;
+    font-family: font-mono;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transition;
+    margin-top: 50px;
+}
+
+#elink:hover {
+  background-color: #008080;
+  color: white;
+}
+
+#elink3{
+	color: #64FFDA;
+    background-color: transparent;
+    border: 1px solid aqua;
+    border-radius: border-radius;
+    padding: 1.25rem 1.75rem;
+    font-size: 18px;
+    font-family: font-mono;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transition;
+    margin-top: 30px;
+}
+
+#elink3:hover {
+  background-color: #008080;
+  color: white;
+}
+
+#footer{
+	color: #8892B0;
+	font-family: font-mono;
+	font-size: 16px;
+	padding: 10px;
+	margin-top: 20px;
+}
+	
+#about{
+	max-width: 1500px;
+	min-height: 1000px;
+}
+
+#ul1{
+	color: #8892B0;
+	font-family: san francisco;
+	font-weight: 400;
+	line-height: 0.9;
+	font-size: 20px;
+	padding-top: 10px;
+	list-style: square inside url("sqpurple.gif");
+	
+}
+
+
+li {
+	margin-top: 10px;
+}
+	
+
+#gallery{
+	max-width: 1100px;
+	min-height: 1000px;
+	border: 12px solid;
+	border-radius: 8px;
+	border-width: 1px;
+	border-color: #64FFDA;
+	background-color: transparent;
+	padding-top: 15px;
+}
+
+#design1{
+	
+	/*border: 12px solid;
+	border-radius: 8px;
+	border-width: 1px;
+	border-color: #64FFDA;*/
+	background-color: transparent;
+	
+}
+
+#containerg1{
+	background-color: transparent;
+}
+
+#btncontainer{
+	position: relative;
+	
+}
+
+#btncontainer .btn{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: 12px solid;
+	border-radius: 8px;
+	border-width: 1px;
+	border-color: #64FFDA;
+	background-color: #112240;
+	color: #64FFDA;
+	font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	cursor: pointer;
+    transition: transition;
+}
+
+  
+
+#btncontainer .btn:hover {
+  background-color: #008080;
+  color: white;
+}
+
+#btncontainer2 .btn{
+	border: 12px solid;
+	border-radius: 8px;
+	border-width: 1px;
+	border-color: #64FFDA;
+	background-color: #112240;
+	color: #64FFDA;
+	font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+iframe{
+	width: 100%;
+	height: 40vh;
+	border: 10px solid;
+	border-radius: 8px;
+	border-width: 1px;
+	border-color: #64FFDA;
+}
+
+  
+.form{
+	
+	
+	display: inline-block;
+	max-width: 1100px;
+	margin: ;
+
+}
+
+/*#elink2{
+	color: #64FFDA;
+    background-color: transparent;
+    border: 1px solid aqua;
+    border-radius: border-radius;
+    padding: 1.25rem 1.75rem;
+    font-size: 15px;
+    font-family: font-mono;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transition;
+    margin-top: 10px;
+}
+
+#elink2:hover {
+  background-color: #008080;
+  color: white;
+}*/
+
+#gmail{
+	color: #64FFDA;
+	font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 1;
+	text-decoration: underline;
+	text-decoration-color: #8892B0;
+	text-decoration-thickness: 1px;
+}
